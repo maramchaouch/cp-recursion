@@ -3,7 +3,7 @@ BEGIN
    IF (ch=="" and (long(ch)=1 )) THEN 
       RETURN false;
  
-ELSE_IF (ch[i]==ch[long(ch)-1]) THEN
+ELSE_IF (ch[0]==ch[long(ch)-1]) THEN
         RETURN true;
     ELSE
         RETURN check(ch,i) 
